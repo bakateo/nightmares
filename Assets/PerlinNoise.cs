@@ -2,29 +2,25 @@
 
 public class PerlinNoise : MonoBehaviour
 {
-    public int width = 256;
-    public int heigth = 256;
+    public int width = 128;
+    public int heigth = 128;
 
     public float scale = 200f;
 
     public float offsetx = 100f;
     public float offsety = 100f;
 
-    private void Start()
-    {
-        while (true)
-        {
-            offsetx += 1;
-            offsety += 1;
-        }
-    }
-
     private void Update()
     {
+        //to simulate the static noise
+        offsetx = Random.Range(0f, 99999f);
+        offsety = Random.Range(0f, 99999f);
+
         Renderer renderer = GetComponent<Renderer>();
         renderer.material.mainTexture = GenerateTexture();
     }
 
+    //generates the the color for every pixel on the texture and applies it
     Texture2D GenerateTexture()
     {
         Texture2D texture = new Texture2D(width, heigth);
@@ -41,6 +37,7 @@ public class PerlinNoise : MonoBehaviour
         return texture;
     }
 
+    //calculates position and color of pixel 
     Color CalcColor(int x, int y)
     {
         float coordX = (float) x / width * scale + offsetx;
