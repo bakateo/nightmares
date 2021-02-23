@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3856049849953080976}
   - component: {fileID: 3856049849953080979}
   - component: {fileID: 3856049849953080978}
+  - component: {fileID: 4739339141962850076}
   m_Layer: 0
   m_Name: DoorRight
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3856049849953080988}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.86862946, y: -2.2663274, z: 0.28756547}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -7030,6 +7031,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!95 &4739339141962850076
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3856049849953080988}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a7fe75583e9b435abc2cff3c318020b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3856049850030128454
 GameObject:
   m_ObjectHideFlags: 0
@@ -8939,6 +8959,7 @@ GameObject:
   - component: {fileID: 3856049850772662731}
   - component: {fileID: 3856049850772662730}
   - component: {fileID: 3856049850772662709}
+  - component: {fileID: 3638287334957551252}
   m_Layer: 0
   m_Name: DoorLeft
   m_TagString: Untagged
@@ -15956,3 +15977,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!95 &3638287334957551252
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3856049850772662711}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0938d9e527aed4054bda96bbaf66718e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
