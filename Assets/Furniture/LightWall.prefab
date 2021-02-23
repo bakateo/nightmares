@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3433937404804940377}
   m_Layer: 0
-  m_Name: LightWall 2
+  m_Name: LightWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5654,7 +5654,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dedb2168801d64845b59361aa8b480cf, type: 2}
+  - {fileID: 2100000, guid: fe5ee1fbd22e648a9a554a18dbabae39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
