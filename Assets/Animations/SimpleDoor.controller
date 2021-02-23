@@ -58,13 +58,13 @@ AnimatorController:
   m_Name: SimpleDoor
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: DoorHandleLeft
+  - m_Name: clickedHandleLeft
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: DoorHandleRight
+  - m_Name: clickedHandleRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -142,7 +142,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: DoorHandleRight
+    m_ConditionEvent: clickedHandleRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6058188197508081523}
@@ -221,9 +221,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25000012
-  m_TransitionOffset: 0
-  m_ExitTime: 0.5315018
+  m_TransitionDuration: 0.24331516
+  m_TransitionOffset: 0.013703977
+  m_ExitTime: 0.7624542
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -265,7 +265,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: DoorHandleLeft
+    m_ConditionEvent: clickedHandleLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5058387785913291719}
@@ -417,7 +417,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 6058188197508081523}
-    m_Position: {x: 350, y: 160, z: 0}
+    m_Position: {x: 360, y: 160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5058387785913291719}
     m_Position: {x: -150, y: 160, z: 0}
@@ -426,7 +426,7 @@ AnimatorStateMachine:
     m_Position: {x: -150, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7986832663456953968}
-    m_Position: {x: 370, y: 30, z: 0}
+    m_Position: {x: 360, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 290319288200865470}
     m_Position: {x: 100, y: 90, z: 0}
