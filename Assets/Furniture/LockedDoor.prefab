@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5995622514121087922}
   - component: {fileID: 5995622514121087921}
   m_Layer: 0
-  m_Name: KnobRight
+  m_Name: HandleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2265,7 +2265,7 @@ GameObject:
   - component: {fileID: 5995622514493536947}
   - component: {fileID: 5995622514493536946}
   m_Layer: 0
-  m_Name: KnobLeft
+  m_Name: HandleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
