@@ -9,7 +9,7 @@ namespace HSRM.Scripts.mabentiv.Interactables
 
         public void Trigger()
         {
-            if (IsInteractabel)
+            if (IsInteractable)
             {
                 OnTrigger?.Invoke();
             }

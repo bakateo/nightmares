@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using static HSRM.Scripts.mabentiv.Events;
 
 namespace HSRM.Scripts.mabentiv.Collectables
 {

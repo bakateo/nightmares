@@ -1,15 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 
-namespace HSRM.Scripts.mabentiv.Interactables {
+namespace HSRM.Scripts.mabentiv.Interactables
+{
 
     public abstract class BaseInteractable : MonoBehaviour
     {
         [SerializeField] private bool isInteractable = true;
 
-        public bool IsInteractabel
+        public bool IsInteractable
         {
             get => isInteractable;
             set => isInteractable = value;
