@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6543340735218275216}
   - component: {fileID: 6543340735218275311}
   - component: {fileID: 6543340735218275310}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Knob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 6543340735448626961}
   - component: {fileID: 6543340735448626960}
   - component: {fileID: 6543340735448627055}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Knob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3565,7 +3565,7 @@ GameObject:
   - component: {fileID: 6543340736429245728}
   - component: {fileID: 6543340736429245759}
   - component: {fileID: 6297050036221512369}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: UpperDrawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5697,7 +5697,7 @@ GameObject:
   - component: {fileID: 6543340736548858499}
   - component: {fileID: 6543340736548858498}
   - component: {fileID: 2648414179078752293}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LowerDrawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
