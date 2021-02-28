@@ -1,5 +1,6 @@
 ﻿using HSRM.Scripts.mabentiv.Interactables;
 using HSRM.Scripts.mabentiv.Util;
+using HSRM.Scripts.mabentiv.Events;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -21,7 +22,7 @@ namespace HSRM.Scripts.mabentiv.Commands
             {
                 HandleInteractable(selector.Interactable);
             }
-            else 
+            else
             {
                 HandleMiss();
             }

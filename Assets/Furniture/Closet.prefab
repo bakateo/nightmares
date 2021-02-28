@@ -7059,7 +7059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3856049850030128455}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Closet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7096,12 +7096,12 @@ GameObject:
   - component: {fileID: 3856049850105499329}
   - component: {fileID: 3856049850105499328}
   - component: {fileID: 3856049850105499331}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &3856049850105499330
 Transform:
@@ -8960,6 +8960,8 @@ GameObject:
   - component: {fileID: 3856049850772662730}
   - component: {fileID: 3856049850772662709}
   - component: {fileID: 3638287334957551252}
+  - component: {fileID: 1201395966196521464}
+  - component: {fileID: 4210779948986364363}
   m_Layer: 10
   m_Name: DoorLeft
   m_TagString: Untagged
@@ -15996,3 +15998,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1201395966196521464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3856049850772662711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415b92e1e6d0f4254968ee76bcb0f45e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  animator: {fileID: 3638287334957551252}
+  parameterName: open
+  boolValue: 0
+--- !u!114 &4210779948986364363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3856049850772662711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe1ac0c8d770411c9a234e376e32d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactable: {fileID: 0}

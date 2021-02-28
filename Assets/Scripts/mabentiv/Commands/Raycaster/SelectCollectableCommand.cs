@@ -1,7 +1,7 @@
 ﻿using HSRM.Scripts.mabentiv.Collectables;
+using HSRM.Scripts.mabentiv.Events;
 using UnityEngine;
 using UnityEngine.Events;
-using HSRM.Scripts.mabentiv;
 
 namespace HSRM.Scripts.mabentiv.Commands
 {

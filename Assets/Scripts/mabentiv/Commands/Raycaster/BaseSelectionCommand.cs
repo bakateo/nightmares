@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-namespace HSRM.Scripts.mabentiv.Commands
+﻿namespace HSRM.Scripts.mabentiv.Commands
 {
     public abstract class BaseSelectionCommand : BaseRaycasterCommand
     {

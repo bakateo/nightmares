@@ -1,18 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using HSRM.Scripts.mabentiv.Interactables;
 
-public class UseInteractableTriggerCommand : MonoBehaviour
+
+namespace HSRM.Scripts.mabentiv.Commands
 {
-    // Start is called before the first frame update
-    void Start()
+    public class UseInteractableTriggerCommand : BaseUseInteractableCommand
     {
-        
-    }
+        private InteractableTrigger InteractableTrigger => Interactable as InteractableTrigger;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public override bool CanUseInteractable(BaseInteractable interactable)
+        {
+            return interactable is InteractableTrigger;
+        }
+
+        protected override void ExecuteCommand()
+        {
+            InteractableTrigger.Trigger();
+        }
+
     }
 }

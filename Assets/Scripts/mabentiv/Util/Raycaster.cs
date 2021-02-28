@@ -1,7 +1,7 @@
 ﻿using HSRM.Scripts.mabentiv.Commands;
 using UnityEngine;
 
-namespace HSRM.Scripts.mabentiv.Utils
+namespace HSRM.Scripts.mabentiv
 {
     public class Raycaster : MonoBehaviour
     {

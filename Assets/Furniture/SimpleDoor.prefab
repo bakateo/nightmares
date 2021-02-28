@@ -1202,7 +1202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4080620595734478843}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DoorHandleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1234,7 +1234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7805531817994125932}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: DoorHandleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1271,7 +1271,7 @@ GameObject:
   - component: {fileID: 6821954692903364063}
   - component: {fileID: 3129189019623168467}
   - component: {fileID: 1693337509316095909}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SimpleDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
