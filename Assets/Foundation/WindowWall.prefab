@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8902928407775526023}
   - component: {fileID: 8902928407775526022}
   - component: {fileID: 8902928407775526017}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: WindowWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 8902928409018635525}
   - component: {fileID: 8902928409018635524}
   - component: {fileID: 8902928409018635527}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Rahmen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2086,6 +2086,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glas
       objectReference: {fileID: 0}
+    - target: {fileID: 8465148822761826957, guid: 97b5ac19380e44eb292c8435d46e5693,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97b5ac19380e44eb292c8435d46e5693, type: 3}
 --- !u!4 &425326214342194953 stripped
@@ -2410,6 +2415,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Glas (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465148822761826957, guid: 97b5ac19380e44eb292c8435d46e5693,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97b5ac19380e44eb292c8435d46e5693, type: 3}
@@ -2736,6 +2746,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8465148822761826957, guid: 97b5ac19380e44eb292c8435d46e5693,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97b5ac19380e44eb292c8435d46e5693, type: 3}
 --- !u!4 &5929376734728728380 stripped
@@ -3060,6 +3075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Glas (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8465148822761826957, guid: 97b5ac19380e44eb292c8435d46e5693,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97b5ac19380e44eb292c8435d46e5693, type: 3}

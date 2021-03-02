@@ -1,16 +1,17 @@
 ﻿using HSRM.Scripts.mabentiv.Collectables;
 using HSRM.Scripts.mabentiv.Interactables;
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace HSRM.Scripts.mabentiv.Events
 {
-    [SerializeField] public class InteractableEvent : UnityEvent<BaseInteractable> { }
-    [SerializeField] public class CollectableEvent : UnityEvent<Collectable> { }
+    [Serializable] public class InteractableEvent : UnityEvent<BaseInteractable> { }
+    [Serializable] public class CollectableEvent : UnityEvent<Collectable> { }
 
-    [SerializeField] public class BoolEvent : UnityEvent<bool> { }
-    [SerializeField] public class FloatEvent : UnityEvent<float> { }
-    [SerializeField] public class IntEvent : UnityEvent<int> { }
+    [Serializable] public class BoolEvent : UnityEvent<bool> { }
+    [Serializable] public class FloatEvent : UnityEvent<float> { }
+    [Serializable] public class IntEvent : UnityEvent<int> { }
 
-    [SerializeField] public class ColliderEvent : UnityEvent<Collider> { }
+    [Serializable] public class ColliderEvent : UnityEvent<Collider> { }
 }
