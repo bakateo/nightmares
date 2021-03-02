@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6543340735218275216}
   - component: {fileID: 6543340735218275311}
   - component: {fileID: 6543340735218275310}
+  - component: {fileID: 3696494417451460517}
   m_Layer: 10
   m_Name: Knob
   m_TagString: Untagged
@@ -661,6 +662,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &3696494417451460517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6543340735218275308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe1ac0c8d770411c9a234e376e32d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactable: {fileID: 2046031371130006405}
 --- !u!1 &6543340735448627053
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +688,7 @@ GameObject:
   - component: {fileID: 6543340735448626961}
   - component: {fileID: 6543340735448626960}
   - component: {fileID: 6543340735448627055}
+  - component: {fileID: 2312949518185251903}
   m_Layer: 10
   m_Name: Knob
   m_TagString: Untagged
@@ -1322,6 +1337,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2312949518185251903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6543340735448627053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe1ac0c8d770411c9a234e376e32d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactable: {fileID: 1834179240319962789}
 --- !u!1 &6543340736256263447
 GameObject:
   m_ObjectHideFlags: 0

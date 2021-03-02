@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5995622514121087923}
   - component: {fileID: 5995622514121087922}
   - component: {fileID: 5995622514121087921}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HandleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2264,7 +2264,7 @@ GameObject:
   - component: {fileID: 5995622514493536948}
   - component: {fileID: 5995622514493536947}
   - component: {fileID: 5995622514493536946}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HandleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4515,7 +4515,7 @@ GameObject:
   - component: {fileID: 5995622514869054832}
   - component: {fileID: 5995622514869054607}
   - component: {fileID: 5995622514869054606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Keyhole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4826,7 +4826,7 @@ GameObject:
   - component: {fileID: 5995622515092813336}
   - component: {fileID: 5995622515092813335}
   - component: {fileID: 5995622515092813334}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Keyhole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5137,7 +5137,9 @@ GameObject:
   - component: {fileID: 5995622515784819131}
   - component: {fileID: 5995622515784819130}
   - component: {fileID: 5995622515784819129}
-  m_Layer: 0
+  - component: {fileID: 7856993126469542034}
+  - component: {fileID: 425960605814763063}
+  m_Layer: 10
   m_Name: DoorHandleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6161,6 +6163,51 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &7856993126469542034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5995622515784819128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c80f99144ee4b70812b92f1ab46403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  animator: {fileID: 3945356825534356577}
+  parameterName: openLeft
+  OnExecute:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &425960605814763063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5995622515784819128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c0c5416d6924a1aafdea1b0ae283b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  OnTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7856993126469542034}
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5995622515840796824
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,7 +6221,9 @@ GameObject:
   - component: {fileID: 5995622515840796828}
   - component: {fileID: 5995622515840796827}
   - component: {fileID: 5995622515840796826}
-  m_Layer: 0
+  - component: {fileID: 2730129431542106590}
+  - component: {fileID: 164801989172690785}
+  m_Layer: 10
   m_Name: DoorHandleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7198,6 +7247,51 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2730129431542106590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5995622515840796824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c80f99144ee4b70812b92f1ab46403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  animator: {fileID: 3945356825534356577}
+  parameterName: openRight
+  OnExecute:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &164801989172690785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5995622515840796824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c0c5416d6924a1aafdea1b0ae283b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  OnTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2730129431542106590}
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5995622515848328611
 GameObject:
   m_ObjectHideFlags: 0
@@ -7212,7 +7306,9 @@ GameObject:
   - component: {fileID: 5995622515848328613}
   - component: {fileID: 5995622515848328612}
   - component: {fileID: 3945356825534356577}
-  m_Layer: 0
+  - component: {fileID: 5837904819506995831}
+  - component: {fileID: 1790621157427505537}
+  m_Layer: 10
   m_Name: LockedDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8011,3 +8107,48 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5837904819506995831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5995622515848328611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c80f99144ee4b70812b92f1ab46403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  animator: {fileID: 3945356825534356577}
+  parameterName: close
+  OnExecute:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1790621157427505537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5995622515848328611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c0c5416d6924a1aafdea1b0ae283b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  OnTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5837904819506995831}
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

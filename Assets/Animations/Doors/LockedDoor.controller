@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: clickedDoor
+    m_ConditionEvent: close
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1155456820795699579}
@@ -88,7 +88,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: clickedDoor
+    m_ConditionEvent: close
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7549864456544355871}
@@ -285,7 +285,7 @@ AnimatorStateTransition:
     m_ConditionEvent: unlocked
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: clickedHandleRight
+    m_ConditionEvent: openRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5196069245959811687}
@@ -316,19 +316,19 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: clickedHandleRight
+  - m_Name: close
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: clickedHandleLeft
+  - m_Name: openLeft
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: clickedDoor
+  - m_Name: openRight
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -454,7 +454,7 @@ AnimatorStateTransition:
     m_ConditionEvent: unlocked
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: clickedHandleLeft
+    m_ConditionEvent: openLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4717724806850840976}

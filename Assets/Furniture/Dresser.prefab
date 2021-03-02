@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3179198785757115532}
   - component: {fileID: 5179559546599794034}
   - component: {fileID: 5627083717760267273}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Knob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -675,7 +675,9 @@ GameObject:
   - component: {fileID: 5960026705523111018}
   - component: {fileID: 8243842847681106681}
   - component: {fileID: 3770121945097435010}
-  m_Layer: 0
+  - component: {fileID: 8657521866691790384}
+  - component: {fileID: 2264781913951938536}
+  m_Layer: 10
   m_Name: LowerDrawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2073,6 +2075,64 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8657521866691790384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4134974470084104580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415b92e1e6d0f4254968ee76bcb0f45e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  animator: {fileID: 3770121945097435010}
+  parameterName: 
+  OnExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  boolValue: 1
+--- !u!114 &2264781913951938536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4134974470084104580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186cdca002bf8412e849c4d995738bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  OnValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8657521866691790384}
+        m_MethodName: set_BoolValue
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8657521866691790384}
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  boolValue: 0
 --- !u!1 &5012896019947400343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,7 +2146,8 @@ GameObject:
   - component: {fileID: 1673265943955910893}
   - component: {fileID: 3575530593843057851}
   - component: {fileID: 4859411189337853793}
-  m_Layer: 0
+  - component: {fileID: 1244305477392481646}
+  m_Layer: 10
   m_Name: Knob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2734,6 +2795,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1244305477392481646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5012896019947400343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe1ac0c8d770411c9a234e376e32d18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactable: {fileID: 4219553195018422826}
 --- !u!1 &6527827323008373957
 GameObject:
   m_ObjectHideFlags: 0
@@ -2748,7 +2822,9 @@ GameObject:
   - component: {fileID: 2804239523201976802}
   - component: {fileID: 8931418972940634410}
   - component: {fileID: 7836798102839001037}
-  m_Layer: 0
+  - component: {fileID: 4436027176998466177}
+  - component: {fileID: 4219553195018422826}
+  m_Layer: 10
   m_Name: UpperDrawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4146,6 +4222,64 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4436027176998466177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6527827323008373957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415b92e1e6d0f4254968ee76bcb0f45e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  animator: {fileID: 7836798102839001037}
+  parameterName: open
+  OnExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  boolValue: 1
+--- !u!114 &4219553195018422826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6527827323008373957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186cdca002bf8412e849c4d995738bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  OnValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4436027176998466177}
+        m_MethodName: set_BoolValue
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4436027176998466177}
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  boolValue: 0
 --- !u!1 &6813328902657420999
 GameObject:
   m_ObjectHideFlags: 0
@@ -4159,7 +4293,7 @@ GameObject:
   - component: {fileID: 2281732138233770777}
   - component: {fileID: 7211198695011138959}
   - component: {fileID: 7006263318883226779}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Dresser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
