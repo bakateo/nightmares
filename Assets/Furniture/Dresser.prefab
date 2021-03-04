@@ -2089,7 +2089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canExecute: 1
   animator: {fileID: 3770121945097435010}
-  parameterName: 
+  parameterName: open
   OnExecute:
     m_PersistentCalls:
       m_Calls: []

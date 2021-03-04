@@ -9,8 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1042480439839819748}
-  - component: {fileID: 789128278373572565}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WMDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,24 +31,6 @@ Transform:
   m_Father: {fileID: 8448854155303081799}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &789128278373572565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7079739331346208193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65c80f99144ee4b70812b92f1ab46403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canExecute: 1
-  animator: {fileID: 6554686479201949149}
-  parameterName: pushedButton
-  OnExecute:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &8448854155303081804
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,7 +44,7 @@ GameObject:
   - component: {fileID: 8448854155303081793}
   - component: {fileID: 8448854155303081794}
   - component: {fileID: 8448854155303081795}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +59,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8448854155303081804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6925, y: 0.24, z: -16.488}
+  m_LocalPosition: {x: 6.793762, y: 0.24000001, z: -15.992085}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
   - {fileID: 1042480439839819748}
@@ -2480,7 +2461,7 @@ GameObject:
   - component: {fileID: 8448854155554488259}
   - component: {fileID: 8448854155554488268}
   - component: {fileID: 8448854155554488269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5307,12 +5288,13 @@ GameObject:
   - component: {fileID: 8448854155716388684}
   - component: {fileID: 8448854155716388685}
   - component: {fileID: 8448854155716388686}
+  - component: {fileID: 7423019937302458648}
   - component: {fileID: 8448854155716388687}
   - component: {fileID: 8448854155716388680}
   - component: {fileID: 5581338692988854611}
   - component: {fileID: 4866590466073064082}
   - component: {fileID: 5004081666007706370}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WMCable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5326,7 +5308,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8448854155716388682}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.083, y: 0.38113946, z: 0.6931448}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -9255,6 +9237,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7423019937302458648
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8448854155716388682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!33 &8448854155716388687
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9391,9 +9387,9 @@ GameObject:
   - component: {fileID: 8448854155752246075}
   - component: {fileID: 6554686479201949149}
   - component: {fileID: 504969254782297950}
-  - component: {fileID: 7637627510433936421}
-  - component: {fileID: 2966049021939115954}
-  m_Layer: 0
+  - component: {fileID: 5762913935724097659}
+  - component: {fileID: 358347266995286906}
+  m_Layer: 10
   m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12253,7 +12249,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   boolValue: 0
---- !u!114 &7637627510433936421
+--- !u!114 &5762913935724097659
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12271,7 +12267,7 @@ MonoBehaviour:
   OnExecute:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2966049021939115954
+--- !u!114 &358347266995286906
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12287,7 +12283,7 @@ MonoBehaviour:
   OnTrigger:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7637627510433936421}
+      - m_Target: {fileID: 5762913935724097659}
         m_MethodName: Execute
         m_Mode: 1
         m_Arguments:
@@ -12311,7 +12307,7 @@ GameObject:
   - component: {fileID: 8448854155792707104}
   - component: {fileID: 8448854155792707105}
   - component: {fileID: 8448854155792707106}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Glas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13774,7 +13770,7 @@ GameObject:
   - component: {fileID: 8653858360161891886}
   - component: {fileID: 8114367474940170604}
   - component: {fileID: 3827413373695617956}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15303,17 +15299,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 789128278373572565}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &8448854156047106871
 GameObject:
   m_ObjectHideFlags: 0
@@ -15327,7 +15312,7 @@ GameObject:
   - component: {fileID: 8448854156047106868}
   - component: {fileID: 8448854156047106869}
   - component: {fileID: 8448854156047106870}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16786,7 +16771,7 @@ GameObject:
   - component: {fileID: 8448854156484635609}
   - component: {fileID: 8448854156484635610}
   - component: {fileID: 8448854156484635611}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18241,7 +18226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8448854156621032519}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WMButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18277,7 +18262,7 @@ GameObject:
   - component: {fileID: 1026659723590585497}
   - component: {fileID: 1237896914411502737}
   - component: {fileID: 2966228701883407729}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

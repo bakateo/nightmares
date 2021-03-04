@@ -84,7 +84,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: clickedHandle
+    m_ConditionEvent: handle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8998371994114137338}
@@ -247,7 +247,7 @@ AnimatorController:
   m_Name: Handle
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: clickedHandle
+  - m_Name: handle
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -297,7 +297,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: clickedHandle
+    m_ConditionEvent: handle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -90764432575589427}
