@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2958807050504258819}
   - component: {fileID: 3441000396919058540}
   - component: {fileID: 1352548820043780886}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HandleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,7 +580,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2022085897771042953}
-  m_Layer: 0
+  - component: {fileID: 5768845740712748379}
+  m_Layer: 10
   m_Name: DoorHandleRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -603,6 +604,25 @@ Transform:
   m_Father: {fileID: 5918887292687883632}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5768845740712748379
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948683983137572706}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32c4a742688794e3eae2db652caeaab9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2271711262688273996
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +636,7 @@ GameObject:
   - component: {fileID: 1942383609894099776}
   - component: {fileID: 1818761871070399028}
   - component: {fileID: 1114229270991332379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,7 +947,7 @@ GameObject:
   - component: {fileID: 2156894711414735558}
   - component: {fileID: 3885457780109657629}
   - component: {fileID: 1611724643979421705}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1239,7 +1259,7 @@ GameObject:
   - component: {fileID: 7650494797537947721}
   - component: {fileID: 33077496178289096}
   - component: {fileID: 6783652382151824602}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HandleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1805,7 +1825,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5259205406522193182}
-  m_Layer: 0
+  - component: {fileID: 266509199136770623}
+  m_Layer: 10
   m_Name: DoorHandleLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1828,6 +1849,25 @@ Transform:
   m_Father: {fileID: 5918887292687883632}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &266509199136770623
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7378742712252466472}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32c4a742688794e3eae2db652caeaab9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8567364041790326398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,7 +1882,7 @@ GameObject:
   - component: {fileID: 8791819224643097261}
   - component: {fileID: 1135960933696024225}
   - component: {fileID: 3733857757032110295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SimpleBasementDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2654,10 +2694,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElectricWarningSign
       objectReference: {fileID: 0}
+    - target: {fileID: 294741344219678697, guid: 58390c56718384a408c4632d672d9b09,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2601704511738045515, guid: 58390c56718384a408c4632d672d9b09,
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676324333719228843, guid: 58390c56718384a408c4632d672d9b09,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406809709160762351, guid: 58390c56718384a408c4632d672d9b09,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4357164981118599323, guid: 58390c56718384a408c4632d672d9b09,
         type: 3}
