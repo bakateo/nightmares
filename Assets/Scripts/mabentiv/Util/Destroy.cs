@@ -16,9 +16,5 @@ namespace HSRM.Scripts.mabentiv.Utils
                 Destroy(go);
             }
         }
-        private void Update()
-        {
-            Execute();
-        }
     }
 }

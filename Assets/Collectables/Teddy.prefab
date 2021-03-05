@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2759683252690109971}
   - component: {fileID: 2759683252690109972}
   - component: {fileID: 2759683252690109973}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -830,7 +830,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683252690109974}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 2759683253032637655}
   - component: {fileID: 2759683253032637480}
   - component: {fileID: 2759683253032637481}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1907,7 +1907,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683253032637482}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -1969,7 +1969,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2759683253092430110}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2010,7 +2010,7 @@ GameObject:
   - component: {fileID: 2759683253343901295}
   - component: {fileID: 2759683253343901280}
   - component: {fileID: 2759683253343901281}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftEar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3021,7 +3021,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683253343901282}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -3087,7 +3087,7 @@ GameObject:
   - component: {fileID: 2759683253424143950}
   - component: {fileID: 2759683253424143951}
   - component: {fileID: 2759683253424143936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3682,7 +3682,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683253424143937}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -3748,7 +3748,7 @@ GameObject:
   - component: {fileID: 2759683253580744731}
   - component: {fileID: 2759683253580744732}
   - component: {fileID: 2759683253580744733}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4565,7 +4565,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683253580744734}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -4631,7 +4631,7 @@ GameObject:
   - component: {fileID: 2759683253831889575}
   - component: {fileID: 2759683253831889592}
   - component: {fileID: 2759683253831889593}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5416,7 +5416,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683253831889595}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -5482,7 +5482,7 @@ GameObject:
   - component: {fileID: 2759683253963734350}
   - component: {fileID: 2759683253963734351}
   - component: {fileID: 2759683253963734336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6299,7 +6299,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683253963734337}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -6365,7 +6365,7 @@ GameObject:
   - component: {fileID: 2759683254041858014}
   - component: {fileID: 2759683254041858015}
   - component: {fileID: 2759683254041858000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6960,7 +6960,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683254041858001}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -7026,7 +7026,7 @@ GameObject:
   - component: {fileID: 2759683254270381369}
   - component: {fileID: 2759683254270381370}
   - component: {fileID: 2759683254270381371}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7843,7 +7843,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683254270381372}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -7905,7 +7905,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2759683254478868319}
-  m_Layer: 0
+  - component: {fileID: 2177777211688238957}
+  - component: {fileID: 5185061019234336515}
+  - component: {fileID: 5608045428816897332}
+  - component: {fileID: 1533586134454000103}
+  m_Layer: 10
   m_Name: Teddy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7932,6 +7936,77 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2177777211688238957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759683254478868304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c0c5416d6924a1aafdea1b0ae283b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  OnTrigger:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5185061019234336515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759683254478868304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e257b1a52dcc54ef79abf6f37dc63e91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  player: {fileID: 0}
+  itemContainer: {fileID: 0}
+  targetCamera: {fileID: 0}
+  pickedUp: 0
+--- !u!65 &5608045428816897332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759683254478868304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4541468, y: 0.80007535, z: 0.45662618}
+  m_Center: {x: -0.075443596, y: 0.34878424, z: -0.018653512}
+--- !u!114 &1533586134454000103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759683254478868304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f9d086df21e4fb29640a1e4dad0b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  go: {fileID: 0}
 --- !u!1 &2759683254497507196
 GameObject:
   m_ObjectHideFlags: 0
@@ -7945,7 +8020,7 @@ GameObject:
   - component: {fileID: 2759683254497507192}
   - component: {fileID: 2759683254497507193}
   - component: {fileID: 2759683254497507194}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8730,7 +8805,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683254497507196}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -8796,7 +8871,7 @@ GameObject:
   - component: {fileID: 2759683254523978241}
   - component: {fileID: 2759683254523978242}
   - component: {fileID: 2759683254523978243}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9581,7 +9656,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683254523978245}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -9647,7 +9722,7 @@ GameObject:
   - component: {fileID: 2759683254597424417}
   - component: {fileID: 2759683254597424418}
   - component: {fileID: 2759683254597424419}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10432,7 +10507,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2759683254597424421}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1

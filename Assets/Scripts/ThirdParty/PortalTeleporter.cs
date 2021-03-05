@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class PortalTeleporter : MonoBehaviour
 {
-    // Start is called before the first frame update
     public CharacterController player;
     public Transform receiver;
     private bool playerIsOverlapping = false;
 
-    // Update is called once per frame
     void Update(){
         if(playerIsOverlapping){
             Vector3 portalToPlayer = player.transform.position - transform.position;
@@ -32,13 +30,15 @@ public class PortalTeleporter : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        if(other.tag == "Player"){
+        if(other.CompareTag("Player"))
+        {
             playerIsOverlapping = true;
         }
     }
 
     void OnTriggerExit(Collider other){
-        if(other.tag == "Player"){
+        if(other.CompareTag("Player"))
+        {
             playerIsOverlapping = false;
         }
     }
