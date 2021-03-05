@@ -7,7 +7,7 @@ namespace HSRM.Scripts.mabentiv.Utils
 {
     public class Destroy : BaseCommand
     {
-        [SerializeField] private BoxCollider go = null;
+        [SerializeField] private Object go = null;
 
         protected override void ExecuteCommand()
         {

@@ -5294,6 +5294,7 @@ GameObject:
   - component: {fileID: 5581338692988854611}
   - component: {fileID: 4866590466073064082}
   - component: {fileID: 5004081666007706370}
+  - component: {fileID: 4249000745162088150}
   m_Layer: 10
   m_Name: WMCable
   m_TagString: Untagged
@@ -9372,6 +9373,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &4249000745162088150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8448854155716388682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f9d086df21e4fb29640a1e4dad0b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canExecute: 1
+  go: {fileID: 0}
 --- !u!1 &8448854155752246053
 GameObject:
   m_ObjectHideFlags: 0
@@ -9388,7 +9403,6 @@ GameObject:
   - component: {fileID: 6554686479201949149}
   - component: {fileID: 504969254782297950}
   - component: {fileID: 5762913935724097659}
-  - component: {fileID: 358347266995286906}
   m_Layer: 10
   m_Name: Frame
   m_TagString: Untagged
@@ -12267,33 +12281,6 @@ MonoBehaviour:
   OnExecute:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &358347266995286906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8448854155752246053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0c0c5416d6924a1aafdea1b0ae283b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isInteractable: 1
-  OnTrigger:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5762913935724097659}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &8448854155792707116
 GameObject:
   m_ObjectHideFlags: 0
