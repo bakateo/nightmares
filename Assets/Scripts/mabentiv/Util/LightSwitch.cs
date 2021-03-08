@@ -8,13 +8,28 @@ namespace HSRM.Scripts.mabentiv.Util
     {
         [SerializeField] private List<Light> lights = null;
         [SerializeField] private bool isOn = false;
+        private bool fuseOn = true;
+
+        public bool FuseOn
+        {
+            get => fuseOn;
+            set {fuseOn = value; Switch();}
+        }
 
         protected override void ExecuteCommand()
         {
-            isOn = !isOn;
-            foreach(var light in lights)
+            Switch();
+        }
+
+        protected void Switch()
+        {
+            if (fuseOn)
             {
-                light.enabled = isOn;
+                isOn = !isOn;
+                foreach (var light in lights)
+                {
+                    light.enabled = isOn;
+                }
             }
         }
 

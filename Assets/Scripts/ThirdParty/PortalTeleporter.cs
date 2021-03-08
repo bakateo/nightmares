@@ -6,8 +6,10 @@ public class PortalTeleporter : MonoBehaviour
     public Transform receiver;
     private bool playerIsOverlapping = false;
 
-    void Update(){
-        if(playerIsOverlapping){
+    void Update()
+    {
+        if(playerIsOverlapping)
+        {
             Vector3 portalToPlayer = player.transform.position - transform.position;
             float dotProduct = Vector3.Dot(transform.up, portalToPlayer);
 
@@ -27,14 +29,24 @@ public class PortalTeleporter : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other){
+    void OnTriggerEnter(Collider other)
+    {
         if(other.CompareTag("Player"))
         {
             playerIsOverlapping = true;
         }
     }
 
-    void OnTriggerExit(Collider other){
+    //void OnTriggerStay(Collider other)
+    //{
+    //    if (other.CompareTag("Player"))
+    //    {
+    //        playerIsOverlapping = true;
+    //    }
+    //}
+
+    void OnTriggerExit(Collider other)
+    {
         if(other.CompareTag("Player"))
         {
             playerIsOverlapping = false;
