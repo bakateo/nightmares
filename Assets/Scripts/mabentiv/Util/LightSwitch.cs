@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using HSRM.Scripts.mabentiv.Commands;
+using HSRM.Scripts.mabentiv.Util;
 using UnityEngine;
 
 namespace HSRM.Scripts.mabentiv.Util
@@ -8,13 +9,6 @@ namespace HSRM.Scripts.mabentiv.Util
     {
         [SerializeField] private List<Light> lights = null;
         [SerializeField] private bool isOn = false;
-        private bool fuseOn = true;
-
-        public bool FuseOn
-        {
-            get => fuseOn;
-            set {fuseOn = value; Switch();}
-        }
 
         protected override void ExecuteCommand()
         {
@@ -23,7 +17,7 @@ namespace HSRM.Scripts.mabentiv.Util
 
         protected void Switch()
         {
-            if (fuseOn)
+            if (FuseToggle.fuseOn)
             {
                 isOn = !isOn;
                 foreach (var light in lights)
